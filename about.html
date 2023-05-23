@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="https://heraldcollege.edu.np/images/footer/footer-logo.svg" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+<seaction class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are one of the best IT college in Nepal</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At esse nulla tenetur recusandae quas praesentium eos optio nostrum dolor! Ex hic necessitatibus dicta eveniet deserunt tempore quae laudantium aliasentium eos optio nostrum dolor! Ex hic necessitatibus dicta eveniet deserunt tempore quae laudantium alias t tenetur!.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="https://heraldcollege.edu.np/images/infrastructure/block-three.jpg" alt="image">
+        </div>
+    </div>
+</seaction>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At esse nulla tenetur recusandae quas praesentium eos optio nostrum dolor! Ex hic necessitatibus dicta eveniet deserunt tempore quae laudantium alias tenetur!.</p>
+    <div>
+        <p>Made by:</p>
+        <h5>A student of Herald College kathmandu</h5>
+        <p>Reference: EasyTutorials</p>
+    </div>
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function ShowMenu(){
+        navLinks.style.right = "0";
+    }
+    function HideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html> 
